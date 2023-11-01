@@ -3,7 +3,8 @@ package com.myBasketballProject;
 public class People {
     private String name = "";
     private int maxPotential = 1;
-    private int currentPotential = 0;
+    private int currentSkill = 0;
+    private int age = 20;
 
     public People(String newName, int maxPotentialSetting) {
         name = newName;
@@ -22,7 +23,23 @@ public class People {
         return maxPotential;
     }
 
-    public int getCurrentPotential() {
-        return currentPotential;
+    public void changeMaxPotential(int truePotential) {
+        maxPotential = truePotential;
+    }
+
+    public int getCurrentSkill() {
+        return currentSkill;
+    }
+
+    public void changeCurrentSkill(int newSkillLevel) {
+        currentSkill = newSkillLevel;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int newAge) {
+        age = newAge;
     }
 }

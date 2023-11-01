@@ -6,6 +6,7 @@ package com.myBasketballProject;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Game mainGame = new Game();
+        System.out.println("👤");
     }
 }
