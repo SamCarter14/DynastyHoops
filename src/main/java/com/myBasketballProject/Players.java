@@ -13,6 +13,8 @@ public class Players extends People {
     private int stealPotential = 0;
     private int dribblingPotential = 0;
     private int jerseyNumber = 0;
+    private String injury = "";
+    private int injuryDuration = 0;
     private String[] positionNames = { "Invalid Position", "Point Guard", "Shooting Guard", "Small Forward",
             "Power Forward", "Center" };
 
